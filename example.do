@@ -8,5 +8,5 @@ gen y=invnorm(uniform())
 
 gen e=2*invnorm(uniform())
 
-sum
+sum y
 reg y x e
